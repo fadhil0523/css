@@ -1,0 +1,57 @@
+nav{
+    background-color: thistle;
+}
+
+h1{
+    background-color: red;
+    color: white;
+}
+
+#hero-section{
+    padding: 3px 8px 20px 8px;
+    background-color: blue;
+}
+#client-section h1{
+    background-color: grey;
+}
+.parent{
+    background-color: aqua;
+    padding: 0 10px 0 0px ;
+}
+.child{
+    background-color: brown;
+}
+.child-2{
+    background-color: yellow;
+}
+.komunitas-parent{
+    background-color: yellowgreen;
+    padding: 0 0 10px 0 ;
+}
+.komunitas-child{
+    background-color: blue;
+    margin: 0 10px 0 10px;
+}
+.komunitas-child-2{
+    background-color: red;
+}
+/* 
+margin untuk memberikan jarak di luar konten(bergantung element parent)
+padding untuk memberikan jarak di dalam konten
+*/
+h2, h3, h4{
+    background-color: black;
+    color: white;
+}
+.cust{
+    background-color: blue;
+    margin-bottom: 2px;
+}
+input[name="username"]{
+    background-color: lightgray;
+}
+*{
+    border: 1px solid black;
+    margin: 0;
+}
+    
