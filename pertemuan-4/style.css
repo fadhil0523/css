@@ -1,26 +1,18 @@
-h1{
+.box{
+    background-color: green;
+    color: white;
+}
+.box-one h2{
+    color: brown;
+    background-color: antiquewhite;
+}
+.box-one h3{
     color: blue;
-    text-align: center;
+    background-color: aqua;
 }
-p{
-    color: black;
-    background-color: lightgray;
-    padding: 20px;
-    margin: 15px;
+.box-one div h3{
+    color: yellow;
 }
-.kotak{
-    width: 200px;
-    height: 200px;
-    background-color: lightgreen;
-    padding:10px;
-    margin: auto;
-}
-#tombol{
-    background-color: orange;
-    padding: 8px 16px 8px 16px;
-    color: white;
-}
-#tombol:hover{
-    background-color: red;
-    color: white;
+.box-one div div h3{
+    color: rgb(0, 0, 255);
 }
