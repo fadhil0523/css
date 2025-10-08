@@ -1,0 +1,132 @@
+.main-menu1{
+    display: flex;
+    flex-direction: row;
+    gap:1%;
+    justify-content: center;
+}
+.menu1-1{
+    background-color: rgba(235, 234, 234, 1);
+    width: 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.menu1-2{
+    background-color: rgba(235, 234, 234, 1);
+    width: 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.menu1-3{
+    background-color: rgba(235, 234, 234, 1);
+    width: 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.menu1-4{
+    background-color:rgba(235, 234, 234, 1);
+    width: 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.main-menu2{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+}
+.menu2-1{
+    background-color: rgba(235, 234, 234, 1);
+    width: 2000px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 20px 65px;
+    padding: 0 10px;
+}
+.menu2-2{
+    background-color: rgba(235, 234, 234, 1);
+    width: 2000px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 65px 20px 0px;
+    padding: 0 10px;
+}
+.main-menu3{
+    display: flex;
+    flex-direction: row;
+    gap:1%;
+    justify-content: center;
+}
+.menu3-1{
+    background-color: rgba(235, 234, 234, 1);
+    width: 2000px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 65px 20px 65px;    
+    padding: 0 10px;
+}
+.main-menu4{
+    display: flex;
+    flex-direction: row;
+    gap:1%;
+    justify-content: center;
+}
+.menu4-1{
+    background-color: rgba(235, 234, 234, 1);
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 90px 20px 90px;
+    padding: 0 10px;
+}
+.history{
+    background-color:rgba(235, 234, 234, 1);
+}
+.history-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.isi-history1{
+    background-color:  grey;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 150px;
+}
+.isi-history2{
+    background-color:  grey;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 150px;
+}
+.isi-history3{
+    background-color:  grey;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 150px;
+}
+.isi-history4{
+    background-color:  grey;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 150px;
+}
+.foot{
+    background-color:rgba(235, 234, 234, 1);
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 10px;
+}

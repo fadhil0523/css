@@ -1,0 +1,26 @@
+.container{
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: center;
+}
+.container-2{
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: flex-end;
+}
+.container-3{
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* align items-flex start= default */
+    align-items: flex-start;
+}
+/* klo sumbu y (vertikal) pake align items */
