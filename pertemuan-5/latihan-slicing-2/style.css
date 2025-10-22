@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    align-items: center;
+
+    margin: 10px 20px;
+}
+.icon-bar{
+    color: rgba(149, 149, 149, 1);
+}
+nav{
+    display: none;
+}
+.hire-me{
+    display: none;
+}
+
+@media(min-width: 391px){
+    .icon-bar{
+        display: none;
+    }
+    nav{
+        display: block;
+        background-color: red;
+    }
+    nav ul{
+        background-color: green;
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .hire-me{
+        display: block;
+        background-color: orange;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: white;
+    }
+}

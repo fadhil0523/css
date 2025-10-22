@@ -1,0 +1,10 @@
+.text-base{
+    text-align: right;
+}
+.text-arab{
+    direction: rtl; /* rtl (right to left) dan kebalikanya */
+    text-align: center;
+}
+.text-dec{
+    text-decoration: underline wavy red;
+}

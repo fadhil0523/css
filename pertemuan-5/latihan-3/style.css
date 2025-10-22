@@ -1,0 +1,25 @@
+.hero{
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 5%;
+}
+.kolom-1{
+    background-color: green;
+    order: 1;
+    /* order valuenya cuma 1, -1 dan parentnya harus flex*/
+}
+.kolom-2{
+    background-color: darkblue;
+}
+button{
+    background-color: rgba(215, 96, 199, 1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}

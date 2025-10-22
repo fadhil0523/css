@@ -1,0 +1,23 @@
+.container{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.kolom-1{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.kolom-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}

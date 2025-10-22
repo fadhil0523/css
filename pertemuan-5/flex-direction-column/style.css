@@ -1,0 +1,17 @@
+.container{
+    background-color: purple;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+/*value row adalah value default flex-diraction */
+/* row mengubah sumbu x */
+/* coulmn mengubah sumbu y */
+}
+.kolom-1{
+    background-color: red;
+}
+.kolom-2{
+    background-color: green;
+}

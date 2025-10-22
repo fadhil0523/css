@@ -1,0 +1,166 @@
+body{
+    font-family: "DM Sans", sans-serif;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02033C;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 12px  lightgrey;
+}
+.nav-deks{
+    display: none;
+}
+.foto-hero{
+    display: none;
+}
+@media(min-width: 391px){
+    .nav-deks{
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+        gap: 50px;
+        font-size: large;
+    }
+    .nav-deks a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+}
+.profile{
+    display: flex;
+    justify-content: flex-start;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    margin-top: 19px;
+    border-radius: 200px;
+}
+.hero-1{
+    color: #010228;
+    
+    margin-left: 10px;
+}
+.hero-1 h1{
+    font-size: 100px;;
+}
+.hero-1 p{
+    font-size: 15px;
+}
+button{
+    padding: 15px 40px;
+    background-color: #0077FF;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    
+    display: flex;
+    justify-content: center;
+}
+.btn-1{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+@media(min-width: 391px){
+    .nama{
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+    }
+    .isi-nama{
+        display: flex;
+        flex-direction: column;
+    }
+    .nama img{
+        margin-top: 60px;
+    }
+    .nama p{
+        margin-top: -40px;
+    }
+    .btn-1{
+        margin-left: 80px;
+        margin-top: -80px;
+    }
+    .foto-hero{
+        display: block;
+        width: 800px;
+        height: 500px;
+    }
+    .profile p{
+        margin-top: 25px;
+    }
+    
+}
+.sct-2{
+    color: #0077FF;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 30px;
+}
+.sct-2 img{
+    margin-left: -35px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 10%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.skills-left{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.skills-right{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.skills-right p{
+    display: flex;
+    justify-content: center;
+}
+.skills-left p{
+    display: flex;
+    justify-content: center;
+}
+.skills p{
+    margin-bottom: 20px;
+}
+@media(min-width:391px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-right{
+        display: flex;
+        flex-direction: row;
+    }
+    .skills-left{
+        display: flex;
+        flex-direction: row;
+    }
+    .skills p {
+        display: flex;
+        flex-direction: column;
+    }
+    .skills img{
+        margin-right: 10px;
+    }
+    .skills p{
+        margin-right: 80px;
+    }
+}
