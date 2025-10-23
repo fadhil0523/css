@@ -1,0 +1,52 @@
+h2{
+    color: darkcyan;
+}
+.bold{
+    font-weight: bold;
+}
+.itallic{
+    font-style: italic;
+}
+hr{
+    border: 1px solid darkcyan;
+}
+.merah{
+    color: red;
+    font-weight: lighter;
+    text-indent: 20px;
+    font-size: xx-large;
+}
+.small{
+    font-size: small;
+    color: grey;
+}
+.under{
+    text-decoration: underline;
+}
+.over{
+    text-decoration: overline;
+}
+.coret{
+    text-decoration: line-through;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.kapital{
+    text-transform: uppercase;
+}
+.no-kapital{
+    text-transform: none;
+}
+.first{
+    text-transform: capitalize;
+}
+.word-sapcing{
+    letter-spacing: 10px;
+}
+.word-spacing{
+    word-spacing: 20px;
+}

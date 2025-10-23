@@ -7,4 +7,19 @@
 }
 .text-dec{
     text-decoration: underline wavy red;
+    text-transform: capitalize;
+}
+.text-space{
+    text-indent: 70px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    white-space: break-spaces;
+}
+.text-overf{
+    /* background-color: yellowgreen; */
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 1px 1px 1px rgb(143, 140, 140)
 }
