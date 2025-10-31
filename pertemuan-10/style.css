@@ -1,0 +1,62 @@
+body {
+  height: 100vh;
+  background-color: skyblue;
+}
+.card-one {
+  width: 200px;
+  height: 200px;
+  background-color: chartreuse;
+  position: static;
+  /* value default position = static */
+}
+.card-two {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.card-tree {
+  width: 200px;
+  height: 200px;
+  background-color: darkmagenta;
+  position: absolute;
+  right: 5px;
+}
+/* yang bisa pake value left right top bottom cuma abolute dan relative */
+hr {
+  margin-top: 1000px !important ;
+}
+.box-one {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  position: relative;
+}
+/* parent harus ada atribute relative */
+.box-two {
+  width: 80px;
+  height: 80px;
+  background-color: fuchsia;
+  position: absolute;
+  right: 5px;
+}
+/* RLTB(right left top bottom) */
+.fix {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  position: fixed;
+  right: 50%;
+  top: 20px;
+}
+/* fix mirip seperti relative tapi bisa pake RLTB */
+.nav-bar{
+    width: 100vw;
+    height: 70px;
+    background-color: navy;
+    position: sticky;
+    top:0;
+}
+/* top nya harus 0 */

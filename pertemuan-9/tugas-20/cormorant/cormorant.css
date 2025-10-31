@@ -1,0 +1,108 @@
+* {
+  font-family: "Cormorant", serif;
+}
+.header {
+  background-color: rgb(233, 227, 219);
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 600;
+  text-align: center;
+}
+.isi-containt {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.ul {
+  text-decoration: underline;
+}
+.designer {
+  text-align: center;
+  margin-top: -70px;
+  font-style: italic;
+}
+.font-1 {
+  margin-left: 20px;
+  text-transform: capitalize;
+  width: 30%;
+}
+.p-light-one {
+  font-weight: 100;
+  font-size: xx-large;
+}
+.p-light-two {
+  font-weight: 100;
+  font-size: xx-large;
+  font-style: italic;
+  margin-top: -30px;
+}
+.p-regular {
+  font-size: xx-large;
+}
+.p-italic {
+  font-size: xx-large;
+  font-style: italic;
+  margin-top: -30px;
+}
+.p-medium {
+  font-size: xx-large;
+  font-weight: 500;
+}
+.p-medium-italic {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: -30px;
+}
+.p-semi-bold {
+  font-size: xx-large;
+  font-weight: 600;
+}
+.p-semi-bold-italic {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: -30px;
+}
+.p-bold {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.p-bold-italic {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: -30px;
+}
+.font-2 {
+  margin-right: -30px;
+  width: 60%;
+}
+.fox {
+  font-size: 50px;
+}
+.long-text {
+  font-size: large;
+}
+.capital {
+  font-size: 40px;
+  letter-spacing: 23px;
+}
+.not-capital {
+  font-size: 40px;
+  letter-spacing: 23px;
+}
+.number-symbol {
+  font-size: 40px;
+  letter-spacing: 23px;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  background-color: rgb(233, 227, 219);
+}

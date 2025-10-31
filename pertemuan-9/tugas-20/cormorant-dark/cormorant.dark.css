@@ -1,0 +1,57 @@
+* {
+  font-family: "Cormorant", serif;
+  color: white;
+  background-color: black;
+}
+.dr {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-left: -295px;
+}
+.parent-one {
+  display: flex;
+  flex-direction: column;
+}
+.container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.long-text {
+  width: 600px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+.theatre {
+  margin-top: 150px;
+  font-size: 200px;
+}
+.symbol-one {
+  font-size: 200px;
+}
+.spirit {
+  font-size: 120px;
+  font-style: italic;
+}
+.container-two {
+  margin-top: -300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 150px;
+  margin-top: -300px;
+}
+.long-text-two {
+  width: 600px;
+  height: 50px;
+  margin-bottom: 100px;
+}
+.container-three {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
