@@ -323,29 +323,33 @@ body {
   margin-left: 70px;
 }
 .img-port-1 {
-  margin-right: 20px;
   background-color: white;
   box-shadow: 7px 4px 15px grey;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
 }
 .img-port-1 img {
   width: 150px;
   margin-top: -10px;
+  margin-left: 50px;
 }
 .img-port-1 p {
   color: #0077ff;
   font-weight: bold;
   margin-top: -1px;
-  margin-left: -30px;
+  margin-left: 20px;
 }
 hr {
   margin-top: -8px;
-  margin-left: -30px;
+  margin-left: 20px;
+  width: 70%;
 }
 .u-p {
   font-size: 10px;
   color: grey;
-  margin-top: -30px;
-  margin-left: -28px;
+  margin-left: 20px;
+  margin-top: -20px;
 }
 .img-port-2 img {
   width: 200px;
@@ -388,31 +392,31 @@ hr {
     margin-left: 40px;
   }
   .img-port-1 {
-    margin-left: 80%;
     background-color: white;
-    padding: 50px 150px;
+    padding: 80px 235px;
     border-radius: 20px;
-    margin-left: 420px;
+    margin-left: 390px;
   }
   .img-port-1 img {
     width: 400px;
-    margin-top: -70px;
+    margin-top: -200px;
+    margin-left: -70px;
   }
   .img-port-1 p {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: -130px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: -200px;
     font-size: 40px;
   }
   .u-p {
-    margin-left: -130px;
+    margin-left: -200px;
+  }
+  .u-p-2 {
+    margin-left: 20px;
   }
   .hr1 {
-    margin-left: -130px;
-  }
-  .img-port-2 {
-    margin-top: 150px;
-    margin-left: -80%;
+    width: 200%;
+    margin-left: -200px;
   }
   .img-port-2 img {
     width: 500px;
@@ -422,8 +426,11 @@ hr {
     margin-bottom: 80px;
   }
   .img-port-2 {
-    height: 300px;
-    width: 700px;
+    margin-top: 150px;
+    margin-left: -80%;
+    height: 350px;
+    width: 715px;
+    padding-bottom: 30px;
     margin-right: -1000px;
   }
   .img-port-2 p {
@@ -432,14 +439,13 @@ hr {
   }
 }
 footer {
-  margin-top: 300px;
   background-color: #d6e1ff;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   display: flex;
   justify-content: center;
-  margin-top: 500px;
+  margin-top: 300px;
 }
 .foot {
   display: flex;
