@@ -12,7 +12,7 @@
   background-color: rgb(196, 188, 188);
   margin-top: 60px;
   width: 200px;
-  height: 900px;
+  height: 1500px;
 }
 .sticky {
   background-color: yellow;
@@ -63,6 +63,19 @@
 }
 .isi-konten {
   margin-left: 20px;
+}
+.tombol {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  text-align: right;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
 }
 .footer {
   background-color: rgb(9, 81, 9);
