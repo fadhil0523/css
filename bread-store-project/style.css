@@ -9,6 +9,11 @@ body {
 
 /* mobile */
 
+header{
+  position: sticky;
+  top: 20px;
+
+}
 .img-1 img {
   width: 50px;
   height: 50px;
@@ -89,6 +94,9 @@ body {
   width: 100%;
   height: 400px;
   margin-bottom: 100px;
+  position: fixed;
+  top: 0;
+  z-index: -99;
 }
 #tagline {
   color: white;
@@ -118,9 +126,11 @@ body {
   }
   .paragraph-1 {
     display: block;
-    margin-top: 300px;
+    margin-top: 1000px;
     width: 800px;
     font-size: medium;
+    background-color: #f5e6c4;
+    padding: 100px 100px;
   }
   .p-1 {
     text-align: center;
@@ -135,7 +145,8 @@ body {
   display: none;
 }
 .Our-Menu {
-  /* background-color: #f5e6c4; */
+  background-color: #f5e6c4;
   margin-top: 200px;
   margin-bottom: 1000px;
+  height: 1000px;
 }
