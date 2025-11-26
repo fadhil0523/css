@@ -1,0 +1,74 @@
+* {
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+  padding: 1.5vw 3vh;
+  display: flex;
+  align-items: center;
+  margin-top: -1.5vh;
+  margin-right: -1.5vw;
+  margin-left: -1.5vw;
+}
+.logo {
+  font-size: 13px;
+  font-family: "Iceland", sans-serif;
+  font-weight: 400 !important;
+  margin-left: 3vw;
+}
+.logo p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+nav {
+  font-family: "Inter", sans-serif;
+  margin-left: 50vw;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 2vw;
+  font-size: 17px;
+}
+.sct-1 {
+  background-image: url(./Background\ Doodle.png);
+  padding-top: 10vh;
+  padding-bottom: 38vh;
+  font-family: "Alfa Slab One", serif;/
+}
+.tagline {
+  margin-left: 7vw;
+}
+.tag-two {
+  color: orange;
+}
+.click {
+  margin-left: 7vw;
+}
+
+.click button {
+  background-color: orange;
+  border-radius: 10px;
+  border: none;
+  padding: 3vh 2vw;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.img-one {
+  margin-left: 60%;
+  margin-top: -30vh;
+}
+.img-one img {
+  width: 300px;
+}
+.giants {
+  color: orange;
+}
+.sponsor {
+  margin-left: 47%;
+  margin-top: 20vh;
+}
